@@ -164,7 +164,7 @@ public class ninja : MonoBehaviour
                   Debug.Log("bitti");
                 panel.SetActive(true);
                 restart_button.SetActive(true);
-                Application.Quit();
+                
                 su_an_can = 100.0f;
             }
         }
