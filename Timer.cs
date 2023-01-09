@@ -34,18 +34,18 @@ public class Timer : MonoBehaviour
             sayac -= Time.deltaTime;
             zaman.value = sayac;
            
-            if (zaman.value == 0 &&ninja.su_an_can!=0)
+            if (zaman.value == 0 && ninja.su_an_can!=0)
             {
                 panel2.SetActive(true);
                 restartButton.SetActive(true);
+               
             }
             else
             {
                 panel.SetActive(true);
                 restart_button.SetActive(true);
-
+               
             }
-            
         }
        
     }

@@ -8,6 +8,6 @@ public class button1 : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene("SampleScene");
-        //ninja.panel.SetActive(false);
+        Time.timeScale = 1;
     }
 }

@@ -8,6 +8,6 @@ public class button2 : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene("SampleScene");
-      //  Timer.panel2.SetActive(false);
+        Time.timeScale = 1;
     }
 }
