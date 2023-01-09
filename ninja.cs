@@ -161,8 +161,11 @@ public class ninja : MonoBehaviour
             can_bari.fillAmount = su_an_can / can;
             if (su_an_can == 0)
             {
+                  Debug.Log("bitti");
                 panel.SetActive(true);
                 restart_button.SetActive(true);
+                Application.Quit();
+                su_an_can = 100.0f;
             }
         }
     }
