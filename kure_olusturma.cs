@@ -15,8 +15,8 @@ public class kure_olusturma : MonoBehaviour
     {
         random = Random.Range(1f, 8f);
         InvokeRepeating("add_right_kure", 1f, random);
-        InvokeRepeating("add_left_kure", 1f, random);
-        InvokeRepeating("add_left_and_right_kure", 1f, random);
+        InvokeRepeating("add_left_kure", 1f, 10f);
+        InvokeRepeating("add_left_and_right_kure", 1f, 20f);
 
     }
 
